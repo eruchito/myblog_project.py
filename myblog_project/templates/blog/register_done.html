@@ -1,0 +1,13 @@
+<!-- templates/blog/register_done.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro Completado</title>
+</head>
+<body>
+    <h1>Registro Completado</h1>
+    <p>Gracias por registrarte, {{ new_user.username }}. Tu cuenta ha sido creada correctamente.</p>
+    <a href="{% url 'login' %}">Iniciar sesión</a>
+</body>
+</html>
